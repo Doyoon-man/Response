@@ -1,7 +1,7 @@
-import { useState, useEffect, useRef } from "react";
-import svgPaths from "../imports/데스크탑복사/svg-wcom07ex0g";
-import heroBg from "figma:asset/96ae70cbe7704fabab0a24e07eebb6c76a9d3b5d.png";
-import heroImg from "figma:asset/2cf1b7f411cfe9894023b339a7539ca73afd4f91.png";
+import { useState, useEffect, useRef } from "../assets/react";
+import svgPaths from "../assets/imports/데스크탑복사/svg-wcom07ex0g";
+import heroBg from "../assets/96ae70cbe7704fabab0a24e07eebb6c76a9d3b5d.png";
+import heroImg from "../assets/2cf1b7f411cfe9894023b339a7539ca73afd4f91.png";
 
 // ─── Logo SVG ───────────────────────────────────────────────
 function LogoSvg({ className = "" }: { className?: string }) {
